@@ -1,0 +1,97 @@
+.CourseTitleAndDurationContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .CourseTitleAndDurationContainer {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.CourseTitle {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .CourseTitle {
+    font-size: 24px;
+  }
+}
+
+.DurationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Duration {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-left: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .Duration {
+    font-size: 14px;
+  }
+}
+
+.CourseDescription {
+  color: #1e293b;
+  font-family: 'roboto';
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .CourseDescription {
+    font-size: 16px;
+  }
+}
+
+.CourseTagsList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.CourseTagItem {
+  list-style-type: none;
+}
+
+.CourseTag {
+  color: #25262c;
+  background-color: #e2e8f0;
+  font-family: 'roboto';
+  font-size: 10px;
+  font-weight: 500;
+  border-radius: 4px;
+  line-height: 1.6;
+  padding: 4px 8px;
+  margin: 0px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .CourseTag {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
