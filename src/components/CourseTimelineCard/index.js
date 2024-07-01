@@ -4,7 +4,7 @@ import './index.css'
 
 const CourseTimelineCard = props => {
   const {courseDetails} = props
-  const {courseTitle, description, duration, tagslist} = courseDetails
+  const {courseTitle, description, duration, tagsList} = courseDetails
 
   return (
     <>
@@ -17,7 +17,7 @@ const CourseTimelineCard = props => {
       </div>
       <p className="CourseDescription">{description}</p>
       <ul className="CourseTagsList">
-        {tagslist.map(eachTag => (
+        {tagsList.map(eachTag => (
           <li className="CourseTagItem" key={eachTag.id}>
             <p className="CourseTag">{eachTag.name}</p>
           </li>
